@@ -15,4 +15,32 @@
         android:onClick="toBackgroundShowToast"
         android:text="跳转设置并吐司"/>
 
+    <Button
+        android:id="@+id/btn_desktop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toDesktopToast"
+        android:text="回到桌面并吐司"/>
+
+    <Button
+        android:id="@+id/btn_system_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickActionSend"
+        android:text="调用系统分享并吐司"/>
+
+    <Button
+        android:id="@+id/btn_launch_qq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickLaunchQQ"
+        android:text="直接打开QQ"/>
+
+    <Button
+        android:id="@+id/btn_launch_wechat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickLaunchWeChat"
+        android:text="打开微信，分身弹窗"/>
+
 </LinearLayout>

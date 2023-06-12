@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         minSdkVersion 24
-        targetSdkVersion 29
+        targetSdkVersion 28//29及以下在鸿蒙系统手机上无法后台吐司,29以上无需悬浮窗和推送开关，都可以后台
         versionCode 1
         versionName "1.0"
     }
